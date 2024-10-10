@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best 4 Friends</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+    }
+    .container {
+        max-width: 100%;
+        margin: 0 auto; /* Center the container */
+        padding: 10px;
+        background-color: #fff;
+    }
+    .friend {
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    .friend img {
+        width: 100%;
+        border-radius: 4px;
+    }
+    .friend-info {
+        padding: 10px;
+    }
+    .react-buttons button {
+        margin-right: 10px;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .like {
+        background-color: #4CAF50;
+        color: white;
+    }
+    .love {
+        background-color: #f44336;
+        color: white;
+    }
+    .dislike {
+        background-color: #777;
+        color: white;
+    }
+
+    /* Media query for mobile view */
+    @media only screen and (max-width: 600px) {
+        .friend {
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        .friend-info {
+            padding: 5px;
+        }
+        .react-buttons button {
+            padding: 3px 6px;
+            margin-right: 5px;
+        }
+    }
+
+    /* Hide desktop content */
+    @media only screen and (min-width: 601px) {
+        body {
+            display: none; /* Hides all content on wider screens */
+        }
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="friend">
+        <img src="cherean.gif" alt="Friend 1">
+        <div class="friend-info">
+            <h2>Cherinet</h2>
+            <p>History: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="react-buttons">
+                <button class="like">Like</button>
+                <button class="love">Love</button>
+                <button class="dislike">Dislike</button>
+            </div>
+        </div>
+    </div>
+    <div class="friend">
+        <img src="./assets/images/cherean.gif" alt="Friend 2">
+        <div class="friend-info">
+            <h2>cherri</h2>
+            <p>History: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="react-buttons">
+                <button class="like">Like</button>
+                <button class="love">Love</button>
+                <button class="dislike">Dislike</button>
+            </div>
+        </div>
+    </div>
+    <div class="friend">
+        <img src="friend3.jpg" alt="Friend 3">
+        <div class="friend-info">
+            <h2>Friend 3</h2>
+            <p>History: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="react-buttons">
+                <button class="like">Like</button>
+                <button class="love">Love</button>
+                <button class="dislike">Dislike</button>
+            </div>
+        </div>
+    </div>
+    <div class="friend">
+        <img src="friend4.jpg" alt="Friend 4">
+        <div class="friend-info">
+            <h2>Friend 4</h2>
+            <p>History: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <div class="react-buttons">
+                <button class="like">Like</button>
+                <button class="love">Love</button>
+                <button class="dislike">Dislike</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
